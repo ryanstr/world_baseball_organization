@@ -1,0 +1,29 @@
+doctype html
+html
+	head
+		title= title
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		link(rel='stylesheet', href='/stylesheets/WBO.CSS')
+	body
+		div.cssmenu
+			ul
+				li 
+					a(href='/')
+						span Home
+				li 
+					a(href='/standings')
+						span Standings
+				li 
+					a(href='./wbo_schedule.html')
+						span Schedule
+				li 
+					a(href='./wbo_rosters.html')
+						span Rosters
+				li 
+					a(href='./wbo_statistics.html')
+						span Statistics
+				li 
+					a(href='./wbo_aboutus.html')
+						span About Us
+
+		block content
